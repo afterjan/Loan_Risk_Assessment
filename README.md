@@ -85,34 +85,10 @@ Berikut ini adalah hasil perbandingan model yang kami gunakan:
 
 ![image](https://user-images.githubusercontent.com/113230789/199012570-25e5fcb3-504b-4a4a-b11a-3b83b435ca57.png)
 
-Berdasarkan nilai AUCnya, model terbaik dalam memprediksi target adalah model XGBoost. Menurut model XGBoost feature paling penting yang dapat memprediksi target adalah sebagai berikut:
-
-![image](https://user-images.githubusercontent.com/113230789/199000017-10028c52-f2df-4e80-9175-11e34f267752.png)
+Berdasarkan nilai AUCnya, model terbaik dalam memprediksi target adalah model XGBoost. 
 
 Berikut adalah impact yang dihasilkan sebelum dan setelah menggunakan model :
 - Sebelum menggunakan model, persentase charge off sebanyak 17% dari 64.484 debitur
 - Setelah prediksi menggunakan model persentase charge off menjadi 4.6% dari 53.582 debitur
 
 Sehingga kami berhasil mencapai target awal yakni nilai charge off kurang dari 6%
-
-## Business Recommendation
-### 1. Term
-![image](https://user-images.githubusercontent.com/113230789/199001985-5f4a3da4-622c-4b79-83d3-9c6d82c48f05.png)
-
-Semakin lama waktu pinjaman tingkat charge offnya semakin rendah, hal ini dikarenakan semakin lama jangka waktu pinjaman maka cicilan yang akan dibayarkan setiap bulan akan lebih sedikit sehingga meringankan 
-debitur dalam membayar pinjamannya dan akan mengurangi kemungkinan gagal bayar. Apabila debitur terdeteksi charge off salah satu solusi yang dapat ditawarkan adalah dengan menawarkan jangka waktu pinjamannya
-menjadi lebih lama agar dapat meringankan debitur, selain itu jangka waktu yang lebih lama juga akan lebih menguntungkan untuk bank karena jumlah revenue dari bunga yang diperoleh akan lebih tinggi.
-### 2. StateSame
-![image](https://user-images.githubusercontent.com/113230789/199002269-169bdd9b-2ffe-4276-8297-c974abc16514.png)
-
-Lokasi bank dan debitur yang sama memiliki tingkat charge off yang lebih rendah, melayani pinjaman untuk bisnis di negara bagian lain akan lebih sulit karena proses pemantauan bisnis dan proses mendapatkan 
-informasi-informasi untuk menentukan kelayakannya pun akan menjadi lebih sulit.Sebaiknya bank dapat merekomendasikan peminjam untuk mengajukan pinjaman pada cabang bank yang berlokasi sama dengan lokasi peminjam.
-Dalam melakukan marketing campaign, bank dapat berforkus pada calon debitur yang berlokasi sama dengan bank dalam melakukan promosinya, sehingga mereduce cost untuk pemasaran.
-### 3. SBA Approved Percentage
-![image](https://user-images.githubusercontent.com/113230789/199002416-09f18e77-64e3-4cd0-afcf-532fc7f0536d.png)
-
-Sebagian pinjaman yang masuk merupakan pinjaman yang mendapatkan jaminan 50% dari SBA yang termasuk ke dalam program SBA Express. Pada program ini keputusan kelayakan dibuat oleh pemberi pinjaman (Bank) bukan 
-SBA sehingga pinjaman ini tidak memerlukan dokumen-dokumen yang disyaratkan SBA dan pinjaman akan diproses dalam waktu yang cukup singkat yaitu 36 jam. Pinjaman yang masuk kategori ini juga memiliki tingkat charge 
-off yang tinggi. Asumsi kami adalah bahwa sebagian besar bisnis memilih untuk menggunakan program SBA Express karena lebih mudah untuk mendapatkan persetujuan pinjaman dalam waktu yang lebih singkat, sayangnya dalam 
-proses persetujuan ini penilaian kelayakan yang dilakukan bank dalam waktu yang singkat terhadap bisnis kurang baik sehingga banyaknya pinjaman yang gagal bayar, dalam kasus ini penggunaan machine learning model akan 
-sangat membantu dalam memprediksi kelayakan bisnis untuk mendapatkan pinjaman atau tidak.
