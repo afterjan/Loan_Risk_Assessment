@@ -25,6 +25,9 @@ Berdasarkan latar belakang yang ada kami bermaksud melakukan analisa pada data h
 apakah pinjaman yang diajukan oleh pengusaha kecil layak untuk disetujui atau ditolak. Sehingga dengan adanya model ini, daily resolved application akan meningkat karena banyak pengajuan yang di-review secara otomatis oleh model, 
 serta meminimalisir risiko gagal bayar dari pengusaha kecil sampai kurang dari 6%, perusahaan dikatakan sehat apabila tingkat Non-Performing Loannya kurang dari 6%.
 
+## Files
+Repository ini berisi README, sebuah notebook python bernama Loan_Risk_Assessment.ipynb dan slides dalam format pdf untuk memuat ringkasan penting dari project ini pada file 'Loan_Risk_Assessment_Slides.pdf'.
+ 
 ## Data Dictionary
 |Variable|Description|
 |--|--|
