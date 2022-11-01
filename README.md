@@ -68,9 +68,9 @@ Proses yang kami lakukan secara garis besar adalah:
  - Data Cleansing
  - Feature Engineering
  - Feature transformation: BoxCox
- - Handling Outliers: Z-Score
+ - Handle Outliers: Z-Score
  - Standardization
- - Handling class imbalance: over sampling SMOTE
+ - Handle class imbalance: over sampling SMOTE
 ### **3. Modeling** 
 Kami mencoba 4 jenis model classification untuk melihat mana yang paling baik dalam memprediksi targer yaitu:
  - Decission Tree
