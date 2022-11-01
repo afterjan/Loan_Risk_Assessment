@@ -62,6 +62,8 @@ Repository ini berisi README, sebuah notebook python bernama Loan_Risk_Assessmen
 
 
 ## Methods
+**Project ini membutuhkan paket standar numpy, pandas, matplotlib, seaborn, sklearn, imblearn, xgboost. Jadi, Anda mungkin perlu menginstal paket ini jika ingin mengujinya.**
+
 Proses yang kami lakukan secara garis besar adalah:
 ### **1. EDA**
  - Descriptive Statistics
@@ -80,8 +82,6 @@ Kami mencoba 4 jenis model classification untuk melihat mana yang paling baik da
  - Random Forest
  - Adaboost
  - XGBoost
-
-Project ini membutuhkan paket standar numpy, pandas, matplotlib, seaborn, sklearn, imblearn, xgboost. Jadi, Anda mungkin perlu menginstal paket ini jika ingin mengujinya.
 
 ## Result
 Berikut ini adalah hasil perbandingan model yang kami gunakan:
